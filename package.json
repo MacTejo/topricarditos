@@ -1,0 +1,23 @@
+{
+  "name": "top-ricarditos",
+  "version": "1.0.0",
+  "description": "Top Ricarditos Web",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "NODE_ENV=development webpack --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "hot": "NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "NODE_ENV=production webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "author": "Luis Ramirez",
+  "license": "ISC",
+  "dependencies": {
+    "bulma": "^0.6.1"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.3.1",
+    "imagemin-mozjpeg": "^7.0.0",
+    "imagemin-webpack-plugin": "^1.5.2",
+    "laravel-mix": "^1.7.2"
+  }
+}

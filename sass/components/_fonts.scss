@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Supercell-Magic';
+    src: url('../fonts/Supercell-Magic.eot');
+    src: url('../fonts/Supercell-Magic.eot?#iefix') format('embedded-opentype'),
+        // url('../fonts/Supercell-Magic.woff2') format('woff2'),
+        url('../fonts/Supercell-Magic.woff') format('woff'),
+        url('../fonts/Supercell-Magic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+$font-supercell: 'Supercell-Magic';
+$font-lato: 'Lato';
